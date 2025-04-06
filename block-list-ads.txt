@@ -1,2 +1,71 @@
+# ========================================
+# Pi-hole Block List de Anuncios y Rastreo
+# ========================================
+# Este archivo contiene una lista de dominios
+# que Pi-hole usará para bloquear anuncios,
+# rastreadores y sitios no deseados en tu red.
+#
+# Cada dominio debe estar en su forma base
+# (sin http://, https://, ni www).
+# Ejemplo: "example.com" es válido.
+#
+# Cualquier cosa que siga a un símbolo de #
+# es considerado un comentario y será ignorado
+# por Pi-hole. Puedes usarlo para documentar
+# tu lista de dominios.
+#
+# Formato: 
+# - Una línea por dominio.
+# - No agregar "http://" o "www."
+#
+# ========================================
+# Ejemplo de Formato Correcto:
+#
+# domain1.com
+# domain2.net
+# ads.example.org
+#
+# ========================================
+# Para bloquear todos los subdominios de un
+# dominio, usa el asterisco (*) como comodín:
+#
+# *.example.com  # Bloquea todos los subdominios de example.com
+#
+# ========================================
+# Si agregas dominios a esta lista, no olvides
+# actualizar Pi-hole para que reciba los cambios.
+# Esto se puede hacer desde la interfaz web:
+# Pi-hole > "Update Gravity"
+#
+# ========================================
+# **NOTA IMPORTANTE**:
+# Si usas una lista externa o descargada, asegúrate
+# de agregar la URL al archivo de configuración de
+# Pi-hole para que se descargue y actualice automáticamente.
+#
+# ========================================
+# Lista de Ejemplo:
+# Descomentando las siguientes líneas se agregarían
+# dominios que Pi-hole bloqueará.
+#
+# *** Bloqueo de dominios publicitarios ***
+# example-ads.com
+# advertising-site.net
+#
+# *** Bloqueo de rastreadores ***
+# tracker.example.com
+# analytics.example.org
+#
+# ========================================
+# Este archivo es generado automáticamente
+# por Pi-hole si usas listas externas, pero
+# puedes agregar o quitar dominios según
+# lo necesites.
+#
+# ========================================
+# Última actualización: [06-04-2025]
+# ========================================
+
+
 bankingbloatedcaptive.com
 divisiondrearilyunfiled.com
